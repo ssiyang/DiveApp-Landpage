@@ -2,3 +2,8 @@
 .navTitle {
   font-weight: bolder;
 }
+
+.navBar {
+  position: fixed;
+  width: 100vw;
+}

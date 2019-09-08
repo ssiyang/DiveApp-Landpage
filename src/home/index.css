@@ -1,4 +1,4 @@
-.App-feature2 {
+.homeContainer {
   background: linear-gradient(to top,#0288D1,rgb(116, 196, 240),transparent) ;
   min-height: 100vh;
   width: 100vw;
@@ -11,20 +11,20 @@
   color: #545454;
 }
 
-.feature2Img {
+.homeImg {
   height: 400px;
   width: 210px;
 }
 
-.feature2ImgContainer {
+.homeImgContainer {
   width: 50vw;
   display: flex;
   justify-content: space-evenly;
 }
 
-.feature2TxtContainer {
+.homeTxtContainer {
   width: 50vw;
-  padding-left: 50px;
+  padding-right: 50px;
 }
  
 @media screen and (max-width: 992px) {
@@ -33,15 +33,15 @@
     align-items: center;
   }
   
-  .feature2Img {
+  .homeImg {
     display: none;
   }
 
-  .feature2ImgContainer {
+  .homeImgContainer {
     width: 0;
   }
 
-  .feature2TxtContainer {
+  .homeTxtContainer {
     width: 80vw
   }
 }
